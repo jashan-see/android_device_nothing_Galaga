@@ -219,6 +219,10 @@ ro.vendor.pq.mtk_blulight_def_support=1
 ro.vendor.pq.mtk_silky_brigtness_support=0
 ro.vendor.pq.mtk_libaibld_name=libaibld.nn6.so
 
+# ScrollOptimizer
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
+
 # Sensors
 ro.vendor.mtk.sensor.support=yes
 

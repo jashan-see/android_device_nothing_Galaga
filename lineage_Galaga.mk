@@ -16,6 +16,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Axion Stuff
+AXION_CAMERA_REAR_INFO := 50,8,50
+AXION_CAMERA_FRONT_INFO := 16
+AXION_MAINTAINER :=Rex
+AXION_PROCESSOR := MTK_Dimensity_7300_Pro_5G
+TARGET_INCLUDES_LOS_PREBUILTS := true
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+
+## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_Galaga
 PRODUCT_DEVICE := Galaga
 PRODUCT_MANUFACTURER := Nothing
