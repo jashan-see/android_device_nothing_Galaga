@@ -21,7 +21,7 @@ jobs:
         git config --global user.name "Jashan"
         git config --global user.email "jashan@example.com"
         repo init -u https://github.com -b twrp-14.1 --depth=1
-        repo sync -c -j$(nproc) --force-sync --no-clone-bundle --no-tags
+        repo sync -c -j$(nproc) --force-sync --no-clone-bundle --no-tags --no-repo-verify
 
     - name: Import CMF Phone 2 Pro Device Tree
       run: |
